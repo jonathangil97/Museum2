@@ -1,0 +1,85 @@
+img{
+    height: 200px;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    color: rgb(6, 114, 30);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    color: rgb(9, 88, 88);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    background-color: gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 45px;
+    text-decoration: none;
+    font-size: 17px;
+    align-items: center;
+}
+
+.topnav a.iconlogin img {
+    width: 30px;
+    height: 30px;
+    padding-bottom: 50px;
+    padding: 0px 50px;
+    position: absolute;
+}
+
+.topnav a:hover {
+    background-color:rgb(243, 179, 17);
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.title{
+    color: rgb(219, 219, 19);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

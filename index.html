@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museum</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/Cup.js"></script>
+    <script src="./js/Museum.js"></script>
+    <!-- <script src="./js/WorldCup.js"></script>
+    <script src="./js/AmericanCup.js"></script>
+    <script src="./js/ChampionsCup.js"></script>
+    <script src="./js/LibertadoresCup.js"></script>
+    <script src="./js/WorldClubCup.js"></script> -->
+</head>
+<body>
+    <div class="topnav">
+        <a class="active" href="#home">HOME</a>
+        <a href="index.html#libertadores">CONMEBOL LIBERTADORES</a>
+        <a href="index.html#americanCup">AMERICAN CUP</a>
+        <a href="index.html#worldCup">WORLD CUP</a>
+        <a href="index.html#championsCup">CHAMPIONS LEAGUE</a>
+        <a href="index.html#worldClubCup">WORLD CLUB CUP</a>
+    </div>
+    <h1 class="title">CUPS MUSEUM</h1>
+    <h2 id="libertadores"></h2>
+    <section>
+        <h2>CONMEBOL LIBERTADORES</h2>
+        <div class="image">
+            <img src="./images/1632230343_712335_1632230733_noticia_normal.jpg" alt="Libertadores cup"> 
+        </div> <br>
+        <p>To see the description click the button.</p> <br>
+        <div class="button">
+            <button onclick="showInfoByClickButtom()">Give me a click</button> 
+        </div>
+        <hr>
+    </section>
+    <section>
+        <h2>AMERICAN CUP</h2>
+    <h3 id="console" >Select the American Cup</h3>
+    <h2 id="americanCup"></h2>
+        <div class="image">
+            <img onmouseenter="resizeImage(this, '300px');textChange(true);" src="./images/000778456W.jpg" alt="American cup" onmouseleave="resizeImage(this, '150px');textChange(false);">
+        </div>
+            <p>Put the cursor inside the image.</p>
+            <hr>
+    </section>
+    <section>
+        <h2>WORLD CUP</h2>
+    <h2 id="worldCup"></h2>
+        <div class="image">
+            <img src="./images/1528970625_105851_1528975129_noticia_normal.jpg" alt="World Cup">
+        </div>
+        <br>
+            <p>Click the button to display the date.</p>
+        <div class="button">
+            <button id="myBtn">Try it</button> 
+        </div>
+        <p id="showDate"></p> 
+        <hr>
+    </section>
+    <section>
+        <h2>CHAMPIONS LEAGUE</h2>
+    <h2 id="championsCup"></h2>
+        <div class="image">
+            <img  ondblclick="showInfoByDbClick()" src="./images/1554877813_922918_1554877857_noticia_normal.jpg_759710130.jpg" alt="Champions cup">
+        </div>
+        <p>Double click on the image to show the message.</p>
+        <p id="champions" ></p>
+        <hr>
+    </section>
+    <section>
+        <h2>WORLD CLUB CUP</h2>
+    <h2 id="worldClubCup"></h2>
+        <div class="image">
+            <img src="./images/mundialdeclubesdelafifa.jpg" alt="World clubes cup">
+        </div>
+        <br>
+            <div class="button">
+                <input type="text" onkeypress="enterOneLetter()">
+            </div>
+            <p>Please write something inside the input field.</p>
+    </section>
+    <script src="./js/index.js"></script>
+</body>
+</html>
